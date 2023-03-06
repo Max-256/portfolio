@@ -17,7 +17,7 @@ body{
 }
 
 h1{
-    font-size: 3.5rem;
+    font-size: 2.5rem;
 }
 
 h2{
@@ -38,7 +38,7 @@ p{
     }
 
     h1{
-        font-size: 4rem;
+        font-size: 3.3rem;
     }
    
     h2{
@@ -48,4 +48,19 @@ p{
     h3{
         font-size: 1.6-rem;
     }   
+}
+
+/* navbar */
+.navbar{
+    background: #19191b !important;
+}
+
+/* home */
+
+.brief-about-me{
+    max-width: 650px;
+}
+
+.brief-about-me h1{
+    margin-bottom: 0.7rem;
 }
