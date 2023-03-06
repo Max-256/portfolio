@@ -30,6 +30,7 @@ h3{
 
 p{
     margin-top: 0;
+    margin-bottom: 0;
 }
 
 @media screen and (min-width: 1024px) {
@@ -52,15 +53,190 @@ p{
 
 /* navbar */
 .navbar{
-    background: #19191b !important;
+    background: #12143b !important;
 }
 
 /* home */
-
-.brief-about-me{
-    max-width: 650px;
+.brief{
+    margin-top: 0;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    background: rgb(239, 239, 239);
 }
 
-.brief-about-me h1{
-    margin-bottom: 0.7rem;
+.brief p{
+    max-width: 750px;
+}
+
+.brief h1{
+    margin-bottom: 0.5rem;
+}
+
+.brief h2{
+    margin-top: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+    .brief h1{
+        padding-top: 8rem;
+    }
+}
+
+/* projects */
+.grid{
+    display: grid;
+    max-width: 800px;
+    gap: 1.5rem;
+    margin: auto;
+    
+}
+
+@media screen and (min-width: 576px) {
+    .grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* card */
+.card{
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+    overflow: hidden;
+    box-shadow: -5px 5px 10px rgb(226, 226, 226);
+    transition: 300ms;
+}
+
+.card:hover{
+    transform:rotateZ(1deg);
+}
+
+.card img{
+    width: 100%;
+    max-height: 140px;
+}
+
+.card li{
+    list-style: none;
+}
+
+.summary{
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+
+.details-link{
+    margin: 1.5rem 0.8rem;
+    border: 1px solid lightgray;
+    padding: 0.2rem;
+    text-align: center;
+    border-radius: 15px;
+    white-space: nowrap;
+    transition: 500ms;
+}
+
+.details-link:hover, link:hover{
+    background: rgb(191, 189, 189);
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+.col{
+    background: black;
+    text-align: center;
+    padding: 0.3rem;
+    margin: auto 1.5rem;
+    border-radius: 15px;
+    transition: 500ms;
+}
+
+.col:hover{
+    background: rgb(173, 171, 171);
+}
+
+.live, .code{
+    text-decoration: none;
+    color: white;
+    white-space: nowrap;
+}
+
+.projects{
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+}
+
+.projects h1{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.contact{
+    margin-bottom: 8rem;
+}
+
+.contact h1{
+    margin-bottom: 0.5rem;
+}
+
+
+.icon{
+    font-size: 2.5rem;
+    margin-right: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    transition: 300ms;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: rgb(44, 42, 42);
+}
+
+
+.jtank-details{
+    margin-bottom: 4rem;
+}
+
+.links{
+    margin-top: 1rem;
+}
+
+.jtank-details a{
+    color: navy;
+    border: 1px solid navy;
+    margin: 1rem;
+    padding: 0.3rem;
+    transition: 500ms;
+}
+
+.live-site{
+    background: red;
+    color: white !important;
+    border: 0 !important;
+}
+
+.jtank-details a:hover{
+    color: white;
+    background: navy;
+    text-decoration: none;
+}
+
+.jtank-details p{
+    max-width: 900px;
+}
+
+.jtank-details h2{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.jtank-details h3{
+    margin-top: 3rem;
+
 }

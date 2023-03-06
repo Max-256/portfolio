@@ -26,19 +26,7 @@ function NavBar() {
                 className='nav-link' 
                 to="/about" 
                 onClick={() => setExpanded(false)}>
-                About Me </NavLink>
-
-                <NavLink
-                className='nav-link' 
-                to="/projects" 
-                onClick={() => setExpanded(false)}>
-                Projects </NavLink>
-
-                <NavLink
-                className='nav-link' 
-                to="/contact" 
-                onClick={() => setExpanded(false)}>
-                Contact </NavLink>        
+                About Me </NavLink>       
           </Nav>
         </Navbar.Collapse>
       </Container>
