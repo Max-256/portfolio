@@ -9,7 +9,7 @@ const BriefAbout = () => {
             of a good web application such as maintainability, scalability and testable code.</p>
 
             <h2>Skills</h2>
-            <li>HTML, CSS, Javascript, Git</li>
+            <li>HTML, CSS, Javascript</li>
             <li>React Js</li>
             <li>Node Js</li>
             <li>Express Js</li>

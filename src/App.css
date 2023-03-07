@@ -216,9 +216,8 @@ a:hover{
 }
 
 .live-site{
-    background: red;
+    background: navy;
     color: white !important;
-    border: 0 !important;
 }
 
 .jtank-details a:hover{
@@ -238,5 +237,18 @@ a:hover{
 
 .jtank-details h3{
     margin-top: 3rem;
+}
 
+.my-story{
+    max-width: 850px;
+    line-height: 1.7;
+}
+
+.my-story h2{
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.my-story p{
+    margin-top: 2rem;
 }

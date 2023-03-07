@@ -30,19 +30,16 @@ const JobTankDetails = () => {
 
             <h3>Purpose and goal</h3>
             <p>Given that information gap is one of the causes of unemployment, i built this project to narrow the gap.</p>
-            <p>My expectation is that with time, problems arising from limited information concerning jobs will be reduced</p>
+            <p>My expectation is that with time, job adverts will be easily accessed</p>
 
             <h3>Spotlight</h3>
-            <p>The challenge i faced in the process was how to get details of the current recruiter logged in, in the frontend</p>
-            <p>I solved this from the backend by signing the json web token with all the user information i would need in the frontend.
+            <p>The challenge i faced in the process was how to get details of the current recruiter in the frontend.</p>
+            <p>I solved this from the backend by signing the json web token with all the user information that would be needed in the frontend.
                 once i decoded the token in the frontend, it had all the data i signed it with from backend.
             </p>
 
             <h3>Current Status</h3>
-            <p>While testing the prototype, my friends gave me positive feedback.</p>
-            <p>The application is live and ready for use. But it has not yet been marketed</p>
-
-
+            <p>The application is live and ready for use. It could need some marketing effort</p>
         </div>
     );
 };
