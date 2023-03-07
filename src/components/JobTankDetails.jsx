@@ -25,8 +25,8 @@ const JobTankDetails = () => {
             <li>MongoDB</li>
 
             <div className='links'>
-            <a href='https://jobtank.netlify.app' target='_blank' className='live live-site'>Live site</a>
-            <a href="https://github.com/Max-256/JobTank" target='_blank' className='live'>Code</a></div>
+            <a href='https://jobtank.netlify.app' target='_blank' rel="noreferrer" className='live live-site'>Live site</a>
+            <a href="https://github.com/Max-256/JobTank" target='_blank' rel="noreferrer" className='live'>Code</a></div>
 
             <h3>Purpose and goal</h3>
             <p>Given that information gap is one of the causes of unemployment, i built this project to narrow the gap.</p>

@@ -25,8 +25,8 @@ const Bigyes = () => {
             <li>MongoDB</li>
 
             <div className='links'>
-            <a href='https://bigyes.netlify.app' target='_blank' className='live live-site'>Live site</a>
-            <a href="https://github.com/Max-256/BIG-YES" target='_blank' className='live'>Code</a></div>
+            <a href='https://bigyes.netlify.app' target='_blank' rel="noreferrer" className='live live-site'>Live site</a>
+            <a href="https://github.com/Max-256/BIG-YES" target='_blank' rel="noreferrer" className='live'>Code</a></div>
 
             <h3>Purpose and goal</h3>
             <p>To allow decentralized shops reach a wider range of target customers</p>

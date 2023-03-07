@@ -17,10 +17,10 @@ const Card = ({image, projectName, projectSummary, detailsPath, liveLink, codeLi
 
                     <div className='row'>
                         <span className='col col-live'>
-                        <a href={liveLink} target='_blank' className='live'>Live site</a></span>
+                        <a href={liveLink} target='_blank' rel="noreferrer" className='live'>Live site</a></span>
 
                         <span className='col col-code'>
-                        <a href={codeLink} target='_blank' className='code'>Code</a></span>                                             
+                        <a href={codeLink} target='_blank' rel="noreferrer" className='code'>Code</a></span>                                             
                     </div>
                 </div>
 

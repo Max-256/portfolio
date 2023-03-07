@@ -11,7 +11,7 @@ const ContactMe = () => {
             <div className='mail'>
                 <span className='icon'><HiOutlineMail /></span>
                 <span><a href = "mailto: opiomaxwell11122@gmail.com" 
-                         target="_blank">opiomaxwell11122@gmail.com</a></span> 
+                         target="_blank" rel="noreferrer">opiomaxwell11122@gmail.com</a></span> 
             </div>
 
             <div>
@@ -21,12 +21,14 @@ const ContactMe = () => {
 
             <div>
                 <span className='icon'><GrLinkedin /></span>
-                <span><a href="https://www.linkedin.com/in/maxwell-opio-a35875199/" target="_blank">linkedIn</a></span>
+                <span><a href="https://www.linkedin.com/in/maxwell-opio-a35875199/" target="_blank" rel="noreferrer">
+                    linkedIn</a></span>
             </div>
 
             <div>
                 <span className='icon'><GrTwitter /></span>
-                <span><a href=" https://twitter.com/chif_pyo" target="_blank">Twitter</a></span>
+                <span><a href=" https://twitter.com/chif_pyo" target="_blank" rel="noreferrer">
+                    Twitter</a></span>
             </div>
 
 
